@@ -1,2 +1,3 @@
 # Django-Python-Full-Stack-Web-Developer
-Notes and files for the Python full stack developer course!
+
+These are my files from following the Udemy course "Python and Django Full Stack Web Developer Bootcamp".
