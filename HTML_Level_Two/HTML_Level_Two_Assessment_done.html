@@ -7,14 +7,21 @@
 <body>
   <h1>Course Sign Up Page</h1>
   <p>Please Note: First Name, Last Name, Password, and Email are required</p>
-  <label for="firstname">First Name:</label>
-  <input type="text" id="firstname" name="firstname" placeholder="First Name">
-  <label for="lastname">Last Name:</label>
-  <input type="text" id="lastname" name="lastname" placeholder="Last Name">
-  <p></p>
-  <label for="email">Email:</label>
-  <input type="email" id="email" name="email" placeholder="me@whatever.com">
-  <label for="password">Password:</label>
-  <input type="password" id="password" name="password">
+  <form action="submit">
+    <label for="firstname">First Name:</label>
+    <input type="text" id="firstname" name="firstname" placeholder="First Name">
+    <label for="lastname">Last Name:</label>
+    <input type="text" id="lastname" name="lastname" placeholder="Last Name">
+    <p></p>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="me@whatever.com">
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password">
+    <p>Are you over the age of 18?</p>
+    <label for="yes18">Yes:</label>
+    <input type="radio" id="yes18" name="over18" value="yes18">
+    <label for="not18">No:</label>
+    <input type="radio" id="not18" name="over18" value="not18">
+  </form>
 </body>
 </html>
