@@ -37,7 +37,7 @@ Give a light yellow background to all <p> elements inside of a <div> element
 Use HEX for the color*/
 
 div p {
-  background-color: #e9f41a
+  background-color: #e9f41a;
 }
 
 /*Task # 6
@@ -46,7 +46,11 @@ There is a textarea element with the id=textblock, give it the following propert
 * A width of 800px and a height of 400px
  */
 
-
+#textblock {
+  border: 5px solid gray;
+  width: 800px;
+  height: 400px;
+}
 
 /*Task # 7
 There is a link to Google on the page. Make this link red.*/
