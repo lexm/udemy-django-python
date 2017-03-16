@@ -36,7 +36,9 @@ input {
 Give a light yellow background to all <p> elements inside of a <div> element
 Use HEX for the color*/
 
-
+div p {
+  background-color: #e9f41a
+}
 
 /*Task # 6
 There is a textarea element with the id=textblock, give it the following properties:
