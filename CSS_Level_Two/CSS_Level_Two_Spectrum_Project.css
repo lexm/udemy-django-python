@@ -2,3 +2,23 @@ h1 {
   font-family: 'Griffy', cursive;
   text-align: center;
 }
+
+#cell_1 {
+  background-color: #FFC6D9;
+}
+
+#cell_2 {
+  background-color: #FFE1C6;
+}
+
+#cell_3 {
+  background-color: #FFF7AE;
+}
+
+#cell_4 {
+  background-color: #48284A;
+}
+
+#cell_5 {
+  background-color: #916C80;
+}
