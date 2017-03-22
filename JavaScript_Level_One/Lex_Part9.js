@@ -9,5 +9,7 @@ if(firstName[0] === lastName[0]
    && height >= 170
    && petName[petName.length - 1] === 'y') {
      console.log('Hello, Spy!');
+   } else {
+     console.log('This is not the message you are looking for');
    }
 alert('Thanks for your answers!');
