@@ -81,8 +81,23 @@ function stringTimes(str, n) {
 // luckySum(1, 13, 3) → 1
 
 function luckySum(a, b, c){
-
-  //Code Goes Here
+  var sum = 0;
+  if(a = 13) {
+    return sum;
+  } else {
+    sum += a;
+  }
+  if(b = 13) {
+    return sum;
+  } else {
+    sum += b;
+  }
+  if(c = 13) {
+    return sum;
+  } else {
+    sum += c;
+  }
+  return sum;
 }
 
 // PROBLEM 5:
