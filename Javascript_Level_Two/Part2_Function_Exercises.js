@@ -115,7 +115,10 @@ function luckySum(a, b, c){
 // caught_speeding(65, true) → 0
 
 function caught_speeding(speed, is_birthday){
-  //Code Goes Here
+  var bonus = is_birthday ? 5 : 0;
+  if(speed <= 60 + bonus) return 0;
+  if(speed <= 80 + bonus) return 1;
+  return 2;
 }
 
 
