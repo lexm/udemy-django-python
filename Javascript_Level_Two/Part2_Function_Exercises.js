@@ -42,7 +42,7 @@ function sleepIn(weekday, vacation) {
 // monkeyTrouble(true, false) → false
 
 function monkeyTrouble(aSmile, bSmile) {
-    //Code Goes Here
+    return aSmile === bSmile;
 }
 
 
