@@ -34,6 +34,9 @@ var employee = {
 
 // Name is John Smith, Job is Programmer, Age is 31.
 
+for(var key in employee) {
+  alert(key + ' is ' + employee[key]);
+}
 
 
 ///////////////////
