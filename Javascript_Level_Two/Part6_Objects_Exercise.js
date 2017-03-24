@@ -48,6 +48,9 @@ var employee = {
   name: "John Smith",
   job: "Programmer",
   age: 31
+  lastname: function() {
+    console.log(this.name.split(' ')[1]);
+  }
 }
 
 // Add a method called lastName that prints
