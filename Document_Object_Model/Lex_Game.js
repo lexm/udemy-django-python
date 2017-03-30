@@ -1,4 +1,12 @@
 var squares = document.querySelectorAll('td');
+var restart = document.querySelector('.btn-primary');
+
+
+restart.addEventListener('click', function() {
+  squares.forEach(function(cur) {
+    cur.textContent = '';
+  })
+})
 
 function changeSquare() {
   var txt = this.textContent;
